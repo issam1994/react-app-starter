@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+and has the following libs and features installed along with some examples of how to use them :
+
+- react-query
+- Zustand
+- tailwindcss
+- mantine
+- typescript
+- husky
+- lint-staged (for linting and formating before commit)
+
 ## Available Scripts
 
 In the project directory, you can run:
