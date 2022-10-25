@@ -1,9 +1,13 @@
-import { Counter } from './components/Counter';
+import { ZustandExample } from './components/ZustandExample';
+import { ReactQueryExample } from './components/ReactQueryExample';
 
 function App() {
     return (
         <div className="p-8">
-            <Counter />
+            <div className="flex justify-end">
+                <ReactQueryExample />
+            </div>
+            <ZustandExample />
         </div>
     );
 }
