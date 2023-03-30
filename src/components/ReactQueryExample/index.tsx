@@ -1,5 +1,5 @@
-import { Loader, Text } from '@mantine/core';
 import { useQuery } from '@tanstack/react-query';
+import { Spin, Typography } from 'antd';
 
 export const ReactQueryExample = () => {
     const { isLoading, error, data } = useQuery({
@@ -10,11 +10,11 @@ export const ReactQueryExample = () => {
             ),
     });
     const result = isLoading ? (
-        <Loader />
+        <Spin spinning />
     ) : error ? (
-        <Text color="red">error</Text>
+        <Typography.Text color="red">error</Typography.Text>
     ) : (
-        <Text weight="bold">{data?.subscribers_count}</Text>
+        <Typography.Text strong>{data?.subscribers_count}</Typography.Text>
     );
     return <div>{result}</div>;
 };
