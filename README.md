@@ -7,7 +7,7 @@ and has the following libs and features installed along with some examples of ho
 - react-query
 - Zustand
 - tailwindcss
-- mantine
+- antd
 - typescript
 - husky
 - lint-staged (for linting and formating before commit)
